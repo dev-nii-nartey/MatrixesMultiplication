@@ -92,7 +92,6 @@ public class Matrix {
                     userInput += matrixInputs + ",";
                 }
                 userInput += row + "," + column;
-                // sc.close();
                 String[] stringArray = userInput.split(",");
                 int[] intArray = new int[stringArray.length];
 
@@ -101,7 +100,6 @@ public class Matrix {
                 }
                 return intArray;
             } catch (Exception e) {
-                // T
                 System.out.println(e.getMessage());
             }
         }
